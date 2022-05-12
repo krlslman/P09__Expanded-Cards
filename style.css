@@ -14,13 +14,14 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: 0;
+    /* margin: 0; */
     overflow: hidden;
 }
 
 .container {
     display: flex;
-    width: 70vw;
+    width: 60vw;
+    height: 90vh;
 	/* margin: 0px auto; */
   }
 
@@ -28,11 +29,11 @@ body{
       background-size: auto 100%;
       background-position: center;
       background-repeat: no-repeat;
-      height: 80vh;
+      width: 18%;
       border-radius: 1vw;
       cursor: pointer;
       flex: 0.2;
-      margin: 20px;
+      margin:0px 20px;
       position: relative;
 	  opacity: 0.8;
       transition: flex 0.3s ease-in;
@@ -46,7 +47,7 @@ body{
 	transition: background-size 0.2s ease-in-out 0.05s;
 }
 .panel h3 {
-    font-size: 10px;
+    font-size: 1rem;
     margin: 0px;
     opacity: 0;
 }
@@ -64,6 +65,17 @@ body{
 	justify-content: center;
 	
 	opacity: 1;
+
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1vw;
+    cursor: pointer;
+    flex: 1.2;
+    margin: 0 20px;
+    position: relative;
+    opacity: 1;
+    transition: flex 0.3s ease-in;
 }
 
 .panel.active h3 {
@@ -76,6 +88,14 @@ body{
 	justify-content: center;
 	align-items: flex-end;
 	padding-bottom: 2vh;
+
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid transparent;
 }
 
 
@@ -96,9 +116,10 @@ body{
         border-radius: 2vw;
         cursor: pointer;
         flex: 0.9;
-        margin: 15px;
+        margin:0 15px;
         position: relative;
         opacity: 0.8;
+        width: 18%;
         /* transition: flex 0.3s ease-in; */
         /* border: rgb(0, 8, 255) solid 18px; */
         /* transition: active 0.2s ease-in 0.05s; */
@@ -132,9 +153,10 @@ body{
         border-radius: 2vw;
         cursor: pointer;
         flex: 0.3;
-        margin: 5px;
+        margin: 0 5px;
         position: relative;
         opacity: 0.8;
+        width: 15%;
         /* transition: flex 0.3s ease-in; */
         /* border: rgb(0, 8, 255) solid 18px; */
         /* transition: active 0.2s ease-in 0.05s; */
