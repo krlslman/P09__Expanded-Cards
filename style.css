@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Inter:wght@700&display=swap');
 
 *{
+    margin: 0 auto;
     box-sizing: border-box;
 	color: azure;
 }
@@ -13,7 +14,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 95vh;
     /* margin: 0; */
     overflow: hidden;
 }
@@ -152,11 +153,11 @@ body{
         height: 90vh;
         border-radius: 2vw;
         cursor: pointer;
-        flex: 0.3;
+        flex: 0.55;
         margin: 0 5px;
         position: relative;
         opacity: 0.8;
-        width: 15%;
+        /* width: 35%; */
         /* transition: flex 0.3s ease-in; */
         /* border: rgb(0, 8, 255) solid 18px; */
         /* transition: active 0.2s ease-in 0.05s; */
@@ -168,7 +169,7 @@ body{
         position: relative;
         border-radius: 2vw;
         /* border: rgb(0, 8, 255) solid 18px; */
-        flex: 3;
+        flex: 1.8;
         display: flex;
         justify-content: center;
         
